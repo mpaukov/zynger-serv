@@ -1,0 +1,30 @@
+{
+  "name": "zynger-serv",
+  "version": "1.0.0",
+  "description": "zynger-serv",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node ./server.js",
+    "start:dev": "cross-env NODE_ENV=development nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpaukov/zynger-serv.git"
+  },
+  "author": "Michael Paukov <Michael.Paukov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpaukov/zynger-serv/issues"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
